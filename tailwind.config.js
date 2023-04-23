@@ -12,7 +12,7 @@ module.exports = {
       screens : {
         sm: '480px',
         md: '768px',
-        lg: '976px',
+        lg: '1080px',
         xl: '1440px'
       },
       colors : {
@@ -29,6 +29,13 @@ module.exports = {
           500: '#FAFAFA',
           900: '#F1F1F1'
         }
+      },
+      spacing : {
+        '13px': '13px',
+        '15px': '15px',
+        '23px' : '23px',
+        '25px': '25px',
+        '42px' : '42px'
       }
     },
   },
