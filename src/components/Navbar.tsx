@@ -7,18 +7,20 @@ import NavLinks from "./NavLinks"
 const Navbar = () => {
     
     return (
-        <header className="sticky py-8 px-6 bg-black-900 flex justify-between 
-        items-center border-b-1 border-white gap-4 sm:justify-start sm:px-10
-        md:flex md:justify-between lg:py-9 lg:px-[165px]">
-            <img src={hamburgerMenu} alt="hamburger-menu" 
-            className="h-4 w-4 sm:mr-[42px] md:hidden" />
-            <img src={logo} alt="logo" className="h-[25px]" />
-            <div className="hidden md:flex text-[13px] md:gap-8 
-            uppercase text-white font-bold leading-[25px] tracking-[2px]">
-            <NavLinks />
+        <header className="sticky py-8 px-6 bg-black-900 sm:justify-start sm:px-10
+        md:flex md:justify-between lg:py-9 lg:px-[165px] ">
+            <div className="flex justify-between w-full 
+        items-center border-b-1 border-white gap-4 xl:w-[1110px] xl:mx-auto">
+                <img src={hamburgerMenu} alt="hamburger-menu" 
+                className="h-4 w-4 sm:mr-[42px] md:hidden" />
+                <img src={logo} alt="logo" className="h-[25px]" />
+                <div className="hidden md:flex text-[13px] md:gap-8 
+                uppercase text-white font-bold leading-[25px] tracking-[2px]">
+                <NavLinks />
+                </div>
+                <img src={cartImg} alt="cart-img" 
+                className="h-5 w-[23px] sm:ml-auto md:ml-0" />
             </div>
-            <img src={cartImg} alt="cart-img" className="h-5 w-[23px] sm:ml-auto md:ml-0" />
-
         </header>
         
     )
