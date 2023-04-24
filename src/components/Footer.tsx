@@ -7,9 +7,8 @@ const Footer = () => {
         <footer className="relative bg-black-900 flex flex-col gap-12 px-6 pt-12 pb-[38px]
         md:px-10 md:pt-15 md:pb-[46px] md:gap-8 md:items-start lg:px-[165px] lg:pt-[75px] 
         lg:pb-12 lg:gap-9">
-            <div className="w-full absolute top-0 left-0 md:left-10 lg:left-[165px] 
-            xl:w-[1110px] xl:left-0 xl:right-0 xl:mx-auto">
-                <hr className="h-1 w-[101px] bg-orange-900 mx-auto md:mx-0"  />
+            <div className="w-full absolute top-0 left-0 md:left-10 lg:left-[165px]">
+                <hr className="h-1 w-[101px] bg-orange-900 mx-auto md:mx-0 border border-red-500"  />
             </div>
             <div className="flex flex-col gap-12 items-center md:items-start lg:flex-row
             md:gap-8 lg:justify-between lg:w-full xl:w-[1110px] xl:mx-auto">
