@@ -8,7 +8,7 @@ const Footer = () => {
         md:px-10 md:pt-15 md:pb-[46px] md:gap-8 md:items-start lg:px-[165px] lg:pt-[75px] 
         lg:pb-12 lg:gap-9">
             <div className="w-full absolute top-0 left-0 md:left-10 lg:left-[165px]">
-                <hr className="h-1 w-[101px] bg-orange-900 mx-auto md:mx-0"  />
+                <hr className="h-1 w-[101px] bg-orange-900 mx-auto md:mx-0 border border-red-500"  />
             </div>
             <div className="flex flex-col gap-12 items-center md:items-start lg:flex-row
             md:gap-8 lg:justify-between lg:w-full">
