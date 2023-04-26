@@ -2,6 +2,7 @@ import BestGear from "../components/BestGear"
 import Footer from "../components/Footer"
 import Navbar from "../components/Navbar"
 import headerImg from "../assets/home/mobile/image-header.jpg"
+import PageNav from "../components/PageNav"
 
 const Home = () => {
     return (
@@ -26,7 +27,7 @@ const Home = () => {
                     >See Product</button>
                 </div>
             </section>
-            <h1 className="text-black-500">Home Page</h1>
+            <PageNav />
             <BestGear />
             <Footer />
         </div>
