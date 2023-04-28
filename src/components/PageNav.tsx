@@ -12,9 +12,10 @@ const PageNav = () => {
                     <div className="absolute -top-[52px] mx-auto">
                         <img src={speakerImg} alt="headphones" className="h-[104px] w-full border border-orange-900" />
                         <h3 className="mt-9 mb-4">HEADPHONES</h3>
-                        <Link to="/headphones" className="flex w-full border border-green-500 items-center">
-                        <a className="text-[13px] leading-[18px] mr-[14px] text-black opacity-50 font-bold">SHOP</a>
-                        <img src={iconRight} alt="right-icon" className="h-[10px] w-[5px]"  />
+                        <Link to="/headphones" className="flex w-full border border-green-500 items-center
+                        text-[13px] leading-[18px] text-black opacity-50 font-bold">
+                        SHOP
+                        <img src={iconRight} alt="right-icon" className="h-[10px] w-[5px] ml-[14px]"  />
                         </Link>
                     </div>
                 </div>
