@@ -9,7 +9,7 @@ const Home = () => {
 
         <div className="min-h-screen flex flex-col justify-between relative bg-white">
             <Navbar />
-            <section className="relative flex items-center z-0">
+            <section className="relative flex items-center z-0 mb-10">
                 <img src={headerImg} alt="new-items" className="h-[600px] w-full" />
                 <div className="absolute top-auto bottom-auto 
                 text-white left-6 right-6 text-center z-0">
