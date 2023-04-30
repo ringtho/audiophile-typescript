@@ -6,7 +6,7 @@ import iconRight from "../assets/shared/desktop/icon-arrow-right.svg"
 
 const PageNav = () => {
     return (
-        <section className="mx-6 flex flex-col gap-4 border-2 border-pink-400">
+        <section className="mx-6 flex flex-col gap-4">
             <div className="h-[207px] relative flex justify-center">
                 <div className="absolute bottom-0 h-[165px] bg-gray-900 
                 w-full rounded-lg">

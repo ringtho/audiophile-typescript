@@ -3,8 +3,10 @@ import Footer from "../components/Footer"
 import Navbar from "../components/Navbar"
 import headerImg from "../assets/home/mobile/image-header.jpg"
 import PageNav from "../components/PageNav"
+import data from "../data.json"
 
 const Home = () => {
+    console.log(data)
     return (
 
         <div className="min-h-screen flex flex-col justify-between relative bg-white">
@@ -28,6 +30,11 @@ const Home = () => {
                 </div>
             </section>
             <PageNav />
+            <section>
+                <div className="bg-orange-900">
+
+                </div>
+            </section>
             <BestGear />
             <Footer />
         </div>
