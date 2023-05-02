@@ -4,6 +4,7 @@ import Navbar from "../components/Navbar"
 import headerImg from "../assets/home/mobile/image-header.jpg"
 import PageNav from "../components/PageNav"
 import data from "../data.json"
+import circlePatern from "../assets/home/desktop/pattern-circles.svg"
 
 const Home = () => {
     console.log(data)
@@ -30,9 +31,9 @@ const Home = () => {
                 </div>
             </section>
             <PageNav />
-            <section>
-                <div className="bg-orange-900">
-
+            <section className="mt-[120px] mx-6">
+                <div className="bg-orange-900 h-[600px] rounded-lg relative py-[55px]">
+                    <img src={circlePatern} alt="circle-pattern" className="absolute top-0" />                                  
                 </div>
             </section>
             <BestGear />
